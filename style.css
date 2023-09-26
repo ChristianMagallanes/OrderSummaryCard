@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  background: #fff;
+  margin-bottom: 50px;
+  width: 450px;
+  height: 697px;
+  border-radius: 1rem;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+}
+.card-img {
+  width: 100%;
+  height: 220px;
+}
+.card-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.card-text {
+  display: flex;
+  justify-content: space-around;
+
+  height: 98px;
+
+  margin-top: 35px;
+  width: 354px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  align-items: center;
+  background: #f7f9ff;
+}
+.card-data-plan {
+  display: flex;
+  width: 180px;
+  height: 48px;
+  justify-content: space-around;
+  border-radius: 11px;
+}
+.plan {
+  display: flex;
+  flex-direction: column;
+}
+.card-titulo {
+  font-family: "Red Hat Display";
+  color: #1f2e55;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: normal;
+}
+.card-parrafo {
+  color: #717fa6;
+  text-align: center;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.plan-tiulo {
+  color: #1f2e55;
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.plan-parrafo {
+  color: #717fa6;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.btn {
+  width: 354px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #3829e1;
+  box-shadow: #000000d2 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+  color: #fff;
+  border: hidden;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-family: "Red Hat Display", sans-serif;
+  cursor: pointer;
+}
+.cambiar {
+  color: #382ae1;
+  font-family: "Red Hat Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-align: end;
+}
+.cambiar-container {
+  width: 100px;
+}
+.cancel {
+  color: #717fa6;
+  font-family: "Red Hat Display";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: 25px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 327px;
+    height: 567px;
+    margin-bottom: 50px;
+  }
+  .card-img {
+    width: 100%;
+    height: 160px;
+  }
+  .card-parrafo {
+    font-size: 15px;
+    width: 263px;
+  }
+  .card-text {
+    width: 279px;
+    height: 81px;
+  }
+  .plan-tiulo {
+    font-size: 14px;
+  }
+  .plan-parrafo {
+    font-size: 14px;
+  }
+  .btn {
+    width: 279px;
+    height: 50px;
+    margin: 12px 0px;
+  }
+  .cancel {
+    font-size: 15px;
+    margin: 0;
+  }
+}
